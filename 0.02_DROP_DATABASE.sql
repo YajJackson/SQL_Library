@@ -1,0 +1,1 @@
+﻿DROP DATABASE SQL_Library;

@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-0.02_DROP_DATABASE",
+      "appliesTo": "0.02_DROP_DATABASE.sql",
+      "type": "launch"
+    }
+  ]
+}
