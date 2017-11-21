@@ -4,5 +4,4 @@
 	Price Money NULL,
 	ProductDescription text null
 )
-GO
-	
+GO	

@@ -5,6 +5,7 @@ GO
 
 -- Returns all columns in the table
 -- Does not use the optional schema, dbo
+-- Slower than listing columns
 SELECT * FROM Products
 GO
 
@@ -17,6 +18,7 @@ GO
 Select ProductID, ProductName, Price, ProductDescription
 	FROM dbo.Products
 	WHERE ProductID < 3
+	AND ProductName != 'clamp'
 GO
 
 -- Returns ProductName and the Price including a 7% tax
